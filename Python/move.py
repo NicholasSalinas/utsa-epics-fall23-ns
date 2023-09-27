@@ -19,7 +19,7 @@ image_files = [f for f in files if os.path.isfile(os.path.join(folder_path, f)) 
 # Sort the image files
 image_files.sort()
 
-# Move the images to the respective folders
+# Move the images to the respective folders ns
 images_per_folder = 10
 for i, image_file in enumerate(image_files):
     folder_index = i // images_per_folder + 1
